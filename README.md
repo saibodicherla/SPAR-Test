@@ -1,6 +1,6 @@
-# 💡 :bulb: Purpose
+# 💡 purpose
 
-Build an API that takes a personal identity number as input over HTTP and responds with information gathered from SPAR about that person which Preferably in a specific format that is easier to consume than XML.  For Instance, JSON. 
+Build an API that takes a swedish personal identity number as input over HTTP and responds with information gathered from SPAR about that person which Preferably in a specific format that is easier to consume than XML.  For Instance, JSON. 
 
 The Service should be accepts an following known 'formats' & ensure its validity:-
 
@@ -15,7 +15,7 @@ The Service should be accepts an following known 'formats' & ensure its validity
 
 Prerequisites:- 
 
-1. Node - *[Installation](https://nodejs.org/en/)*
+- Node - *[Installation](https://nodejs.org/en/)*
 
 ***Run Locally (Installation Steps)*** 
 
@@ -44,7 +44,7 @@ Prerequisites:-
 > http://localhost:8000/api/v1/person-information?id=[snid]
 ```
 
-Where [snid] is the Swedish National ID that you want to retrieve data for.
+Where [snid] is your Swedish National ID that you want to retrieve data for.
 
 
 
